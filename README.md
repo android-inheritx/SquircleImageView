@@ -28,8 +28,7 @@ Step 2. Add the dependency
  Notes:
  The ScaleType is always CENTER_CROP and you'll get an exception if you try to change it. This is (currently) by design as it's perfectly fine for profile images.
  
-Usage
------
+### Usage
 ```xml
  <com.example.squircleview.SquircleView
      android:id="@+id/sqProfile"
@@ -40,7 +39,7 @@ Usage
      app:civ_border_color="#2585D1" />
 ```
  
-## Formula for creating Squircle shape on canvas
+### Formula for creating Squircle shape on canvas
 (|x|)^3 + (|y|)^3 = radius^3
 
 ### Reference and Credit
